@@ -36,12 +36,18 @@ SmartInventoryMobile: Project Three launch plan, deployment strategy, and code m
 
 CS360 M7 P3Option 1 (MWood).docx: Finalized documentation detailing value proposition for stakeholders.
 
-📖 Reflective Journal Summary
-User-Centered Design: Utilized high-contrast text and 48dp x 48dp touch targets for one-handed operation.
+📖 Module Eight Reflection
+App Requirements and Goals: The SmartInventory app was designed to provide a reliable, offline-first mobile solution for warehouse workers. The primary goal was to bridge the gap between physical inventory on the floor and digital records, addressing the need for accurate, real-time stock tracking in environments with poor Wi-Fi or cellular service.
 
-Computer Scientist’s Approach: Applied MVVM architecture to separate UI from database logic for responsiveness.
+User-Centered UI: Necessary features included a login/registration screen for security, a grid-based dashboard for quick status scanning, and automated background notification logic. Designs were successful because they utilized high-contrast text and 48dp x 48dp touch targets to ensure usability in harsh warehouse lighting and facilitate efficient, one-handed operation.
 
-The Role of Computer Science: Demonstrated automation of complex inventory tracking via offline-capable local push notifications.
+Coding Approach: I utilized the Model-View-ViewModel (MVVM) architecture to decouple the UI from database logic, ensuring the interface remained responsive during background operations. This strategy of separating concerns is highly applicable to future projects to maintain stable, testable codebases.
+
+Testing and Functionality: Testing was conducted on a Samsung (SM-A176U) device to verify app behavior in a real-world environment. This process is critical for ensuring that hardware constraints do not impede app performance, and it revealed the necessity of robust background observers for accurate inventory monitoring.
+
+Innovation and Challenges: I had to innovate to overcome the limitations of offline connectivity by hardcoding the zero-count notification trigger directly into a background database observer. This provided the necessary automation for Procurement Specialists without requiring a cloud-based sync.
+
+Successful Demonstration of Skills: I was particularly successful in the implementation of the notification subsystem. This component effectively demonstrated my ability to integrate background tasks with local database management to solve specific operational efficiency problems.
 
 ⚖️ Academic Integrity & AI Disclosure
 Academic Purpose: Completed for SNHU academic purposes.
@@ -49,7 +55,7 @@ Academic Purpose: Completed for SNHU academic purposes.
 AI Usage: Generative AI tools used as supplemental aids for brainstorming and formatting, per university policy.
 
 🚀 Getting Started
-Clone Command: git clone [https://github.com/ShAd0w-R3BeL/CS-360.git](https://github.com/ShAd0w-R3BeL/CS-360.git)
+Clone Command: git clone https://github.com/ShAd0w-R3BeL/CS-360.git
 
 🌙 Contact
 Name: Matthew Wood
